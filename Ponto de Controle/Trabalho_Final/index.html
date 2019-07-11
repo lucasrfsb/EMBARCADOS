@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulário local via Raspberry Pi</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="ok.html">        
+		<label for="cor">cor</label>
+				<select id="cor" name="cor">
+				  <option value="vermelho">vermelho</option>
+				  <option value="branco">branco</option>
+				  <option value="ultra">ultra</option>
+				</select>
+
+		<label for="intensidade">intensidade</label>
+				<select id="intensidade" name="intensidade">
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+			      <option value="4">4</option>
+				</select>
+	   <input type="hidden" id="custId" name="custId" value="3487">
+	   <input type="submit" value="Submit">
+       
+      </form>
+    </div> 
+
+	<img style="-webkit-user-select: none; margin-left:500px;" src="http://172.29.46.94:8081/">
+	
+  </body>
+</html>

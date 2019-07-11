@@ -1,0 +1,1 @@
+cor=branco&intensidade=4&cust
